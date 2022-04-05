@@ -10,7 +10,7 @@
   width: 75%;
   /* border: 1px solid black; */
   display: flex;
-  height: 900px;
+  height: 100vh;
   margin: auto;
   padding-top: 70px;
   gap: 2%;
@@ -179,5 +179,65 @@
   color: #626262;
 }
 .discover:hover {
+  background-color: #e8e8e8;
+}
+.top {
+  padding-bottom: 8px;
+  /* height: 100px; */
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: white;
+}
+.searchDiv {
+  padding: 10px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.searchDiv > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.searchDiv > input {
+  height: 47px;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+  border-radius: 30px;
+  border: 1px solid silver;
+}
+.buttons {
+  /* border: 1px solid black; */
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.fa-solid {
+  color: rgb(0, 163, 227);
+  font-size: 23px;
+  margin-right: 8px;
+}
+.btnicon {
+  padding: 7px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  cursor: pointer;
+  /* padding: 5px; */
+  display: flex;
+  justify-content: space-between;
+}
+.btnicon > span {
+  text-align: center;
+  /* margin: 3px; */
+}
+.icontext {
+  /* color: red; */
+  margin-top: 5px;
+  font-size: 14px;
+}
+.btnicon:hover {
   background-color: #e8e8e8;
 }

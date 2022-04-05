@@ -1,8 +1,37 @@
 import "../styles/Home.css";
 //  import {alok} from '../'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookmark, faSquare } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBookmark,
+  faSquare,
+  faImage,
+  faVideo,
+  faCalendar,
+  faArrowAltCircleLeft,
+
+} from "@fortawesome/free-solid-svg-icons";
 export const Home = () => {
+  const Buttons = [
+    {
+      icon: <FontAwesomeIcon className="fa-solid" icon={faImage} />,
+      // icon: <FontAwesomeIcon className="fa-solid" icon={faPaperPlane} />,
+      text: "Photo",
+    },
+    {
+      icon: <FontAwesomeIcon className="fa-solid" icon={faVideo} />,
+      text: "Video",
+    },
+    {
+      icon: <FontAwesomeIcon className="fa-solid" icon={faCalendar} />,
+      text: "Event",
+    },
+    {
+      icon: (
+        <FontAwesomeIcon className="fa-solid" icon={faArrowAltCircleLeft} />
+      ),
+      text: "Write aritcle",
+    },
+  ];
   return (
     <>
       <div className="main">
@@ -61,7 +90,29 @@ export const Home = () => {
               <h4 className="discover">Discover more</h4>
             </div>
           </div>
-          <div className="middleSide"></div>
+          <div className="middleSide">
+            <div className="top">
+              <div className="searchDiv">
+                <img src="https://i.ibb.co/FqN8fT6/Alok-kumar.jpg" alt="" />
+                <input
+                  className="postInput"
+                  type="text"
+                  placeholder="Start a post"
+                />
+              </div>
+              <div className="buttons">
+                {Buttons.map((el) => (
+                  <div className="btnicon">
+                    <span>{el.icon}</span>
+                    <span className="icontext">{el.text}</span>
+                  </div>
+                ))}
+                {/* <div className="video">Video</div>
+                <div className="event">Event</div>
+                <div className="artical">Write article</div> */}
+              </div>
+            </div>
+          </div>
           <div className="rightSide"></div>
         </div>
       </div>
