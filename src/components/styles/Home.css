@@ -1,0 +1,21 @@
+.homeContainer{
+    width: 76%;
+    border: 1px solid black;
+    display: flex;
+    height: 900px;
+    margin: auto;
+    margin-top: 70px;
+    gap: 2%;
+}
+.leftSide{
+    flex: 2;
+    border: 1px solid blue;
+}
+.middleSide{
+    flex: 4;
+    border: 1px solid black;
+}
+.rightSide{
+    flex: 2;
+    border: 1px solid black;
+}

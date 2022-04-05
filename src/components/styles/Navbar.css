@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+.navContainer {
+  font-family: sans-serif;
+  padding: 8px 0;
+  width: 75%;
+  height: 38px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+.navLeftSide {
+  flex: 3;
+  margin-right: 10%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+.navMiddleSide {
+  flex: 4;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.navRightSide {
+  flex: 2;
+  /* border: 1px solid black; */
+}
+
+.logo > img {
+  width: 90%;
+  height: 90%;
+}
+.inputField {
+  height: 90%;
+  margin-left: 5px;
+  width: 70%;
+  font-size: 16px;
+  padding: 0 5px;
+  line-height: 28px;
+  color: #000000e6;
+  border-radius: 5px;
+  border: none;
+  background-color: #eef3f8;
+}
+.fa-icon {
+  color: #5b5b5be6;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.link {
+  cursor: pointer;
+  width: 100%;
+  color: #787878;
+  text-decoration: none;
+  /* border: 1px solid; */
+}
+.text {
+  margin: 1px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.text:hover {
+  color: black;
+}
+.avatar {
+  height: 20px;
+  width: 25px;
+  border-radius: 50%;
+  display: block;
+  margin-left: 30%;
+}
+.fa-icon:hover{
+  color: black;
+  /* background-color: black; */
+}
+.avatar-text {
+  margin-top: 0;
+  display: flex;
+}
