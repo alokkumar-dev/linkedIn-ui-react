@@ -112,7 +112,6 @@ export const Home = () => {
                 ))}
               </div>
             </div>
-            {/* <hr className="hr" /> */}
             {Posts_Data.map((el) => (
               <>
                 <div className="postsMainDiv">
