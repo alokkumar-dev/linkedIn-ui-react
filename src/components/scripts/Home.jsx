@@ -18,7 +18,6 @@ export const Home = () => {
   const Buttons = [
     {
       icon: <FontAwesomeIcon className="fa-solid" icon={faImage} />,
-      // icon: <FontAwesomeIcon className="fa-solid" icon={faPaperPlane} />,
       text: "Photo",
     },
     {
@@ -153,14 +152,17 @@ export const Home = () => {
                     </div>
                     <p>{el.likes}</p>
                   </div>
-                  <hr className="hr" />
+                  <div className="hr"></div>
+                  <div className="viewerReactionMain">
                   {el.icons.map((e) => (
-                    <>
-                      <div className="viewerReaction">
-                        
-                      </div>
-                    </>
-                  ))}
+                    
+                        <div className="viewerReaction" >
+                          <h5>{e.icon}</h5>
+                          <p>{e.text}</p>
+                        </div>
+                    
+                    ))}
+                    </div>
                 </div>
               </>
             ))}

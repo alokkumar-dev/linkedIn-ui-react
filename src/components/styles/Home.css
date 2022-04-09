@@ -8,9 +8,7 @@
 .homeContainer {
   font-family: sans-serif;
   width: 75%;
-  /* border: 1px solid black; */
   display: flex;
-  height: 100vh;
   margin: auto;
   padding-top: 70px;
   gap: 2%;
@@ -21,7 +19,7 @@
 }
 .middleSide {
   flex: 4;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .rightSide {
   flex: 2;
@@ -236,10 +234,11 @@
 /* -----------Post css here ----------------- */
 .postsMainDiv {
   margin: 20px auto;
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 8px;
   background-color: #fff;
-  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  padding-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .useDetails {
   display: flex;
@@ -319,7 +318,6 @@
   font-weight: 400;
   color: #3f3f3f;
   margin-left: 14px;
-  /* margin-bottom: 10px; */
 }
 .postPicture {
   width: 100%;
@@ -327,12 +325,13 @@
   margin: 10px auto;
 }
 .postPicture > img {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 .likes {
   display: flex;
   margin-left: 17px;
+  margin-bottom: 10px;
 }
 .likes > p {
   font-size: 14px;
@@ -343,10 +342,10 @@
   margin-bottom: 5px;
 }
 .likeIcon>div{
-  color: #d0e8ff;
-  border-radius: 50%;
   font-size: 10px;
   padding: 2px 3px;
+  color: #d0e8ff;
+  border-radius: 50%;
   background-color: #378fe9;
 }
 .lightIcon:nth-child(3){
@@ -356,8 +355,32 @@
   background-color: #df704d;
 }
 .lightIcon:nth-child(2){
-  margin-left: -3px;
   color: #fcf8f0;
-  background-color: #f5bb5c;
+  margin-left: -3px;
   margin-right: 3px;
+  background-color: #f5bb5c;
+}
+.viewerReactionMain{
+  display: flex;
+  justify-content: space-around;
+}
+.viewerReaction{
+  display: flex;
+  cursor: pointer;
+  margin:5px auto;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 8px 13px;
+  border-radius: 5px;
+  color: #5d5d5ddc;
+  margin-bottom: 10px;
+}
+.viewerReaction:hover{
+  transition: all ease .5s;
+  background-color: #e8e8e8;
+}
+.viewerReaction>h5{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 5px;
 }
