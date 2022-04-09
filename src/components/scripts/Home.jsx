@@ -8,8 +8,12 @@ import {
   faVideo,
   faCalendar,
   faArrowAltCircleLeft,
-
+  faEarth,
+  faHeart,
+  faLightbulb,
+  faThumbsUp,
 } from "@fortawesome/free-solid-svg-icons";
+import { Posts_Data } from "../../Data/PostData";
 export const Home = () => {
   const Buttons = [
     {
@@ -107,11 +111,59 @@ export const Home = () => {
                     <span className="icontext">{el.text}</span>
                   </div>
                 ))}
-                {/* <div className="video">Video</div>
-                <div className="event">Event</div>
-                <div className="artical">Write article</div> */}
               </div>
             </div>
+            {/* <hr className="hr" /> */}
+            {Posts_Data.map((el) => (
+              <>
+                <div className="postsMainDiv">
+                  <div className="useDetails">
+                    <img className="userAvatar" src={el.avatar} alt="" />
+                    <div className="avatarDetails">
+                      <h4>{el.name}</h4>
+                      <p>{el.about_avatar}</p>
+                      <div className="postime">
+                        <p>3D</p>
+                        <div className="dot"></div>
+                        <FontAwesomeIcon className="earthIcon" icon={faEarth} />
+                      </div>
+                    </div>
+                    <div className="followbtn">
+                      <p>+</p>
+                      <h5>Follow</h5>
+                    </div>
+                  </div>
+                  <div className="aboutPost">
+                    <p>{el.about_post}</p>
+                  </div>
+                  <div className="postPicture">
+                    <img src={el.post_picture} alt="" />
+                  </div>
+                  <div className="likes">
+                    <div className="likeIcon">
+                      <div>
+                        <FontAwesomeIcon icon={faThumbsUp} />{" "}
+                      </div>
+                      <div className="lightIcon">
+                        <FontAwesomeIcon icon={faLightbulb} />{" "}
+                      </div>
+                      <div className="lightIcon">
+                        <FontAwesomeIcon icon={faHeart} />{" "}
+                      </div>
+                    </div>
+                    <p>{el.likes}</p>
+                  </div>
+                  <hr className="hr" />
+                  {el.icons.map((e) => (
+                    <>
+                      <div className="viewerReaction">
+                        
+                      </div>
+                    </>
+                  ))}
+                </div>
+              </>
+            ))}
           </div>
           <div className="rightSide"></div>
         </div>

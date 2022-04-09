@@ -159,7 +159,6 @@
 .events > h5 {
   margin-right: 5px;
   padding: 2px 10px;
-  /* border: 1px solid black; */
   border-radius: 50%;
   cursor: pointer;
   font-size: 28px;
@@ -183,15 +182,12 @@
 }
 .top {
   padding-bottom: 8px;
-  /* height: 100px; */
-  /* border: 1px solid black; */
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   background-color: white;
 }
 .searchDiv {
   padding: 10px;
-  /* border: 1px solid black; */
   display: flex;
 }
 .searchDiv > img {
@@ -222,22 +218,146 @@
 }
 .btnicon {
   padding: 7px;
-  /* border: 1px solid black; */
   border-radius: 5px;
   cursor: pointer;
-  /* padding: 5px; */
   display: flex;
   justify-content: space-between;
 }
 .btnicon > span {
   text-align: center;
-  /* margin: 3px; */
 }
 .icontext {
-  /* color: red; */
   margin-top: 5px;
   font-size: 14px;
 }
 .btnicon:hover {
   background-color: #e8e8e8;
+}
+/* -----------Post css here ----------------- */
+.postsMainDiv {
+  margin: 20px auto;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #fff;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
+.useDetails {
+  display: flex;
+  margin: 20px auto;
+}
+.userAvatar {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 13px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.avatarDetails > h4 {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #323232;
+  display: inline-block;
+}
+.avatarDetails > h4:hover {
+  color: #0168cf;
+  text-decoration: underline;
+}
+.avatarDetails > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #5b5b5b;
+}
+.postime {
+  display: flex;
+}
+.postime > p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #5b5b5b;
+}
+.dot {
+  height: 4px;
+  width: 4px;
+  margin: 5px 8px;
+  border-radius: 50%;
+  background-color: #3d3d3d;
+}
+.earthIcon {
+  color: #565656;
+  font-size: 15px;
+}
+.followbtn {
+  border: none;
+  display: flex;
+  cursor: pointer;
+  margin-left: 3%;
+  font-size: 18px;
+  padding: 1px 8px;
+  color: #0168cf;
+  font-weight: 600;
+  border-radius: 5px;
+  height: fit-content;
+}
+.followbtn:hover {
+  transition: all ease 0.5s;
+  background-color: #3899fa29;
+}
+.followbtn > p {
+  font-size: 28px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.followbtn > h5 {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.aboutPost {
+  font-size: 13px;
+  font-weight: 400;
+  color: #3f3f3f;
+  margin-left: 14px;
+  /* margin-bottom: 10px; */
+}
+.postPicture {
+  width: 100%;
+  height: 400px;
+  margin: 10px auto;
+}
+.postPicture > img {
+  height: 100%;
+  width: 100%;
+}
+.likes {
+  display: flex;
+  margin-left: 17px;
+}
+.likes > p {
+  font-size: 14px;
+  color: #4e4e4e;
+}
+.likeIcon{
+  display: flex;
+  margin-bottom: 5px;
+}
+.likeIcon>div{
+  color: #d0e8ff;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 2px 3px;
+  background-color: #378fe9;
+}
+.lightIcon:nth-child(3){
+  padding-top: 3px;
+  margin-left: -3px;
+  color: #ffe3e3;
+  background-color: #df704d;
+}
+.lightIcon:nth-child(2){
+  margin-left: -3px;
+  color: #fcf8f0;
+  background-color: #f5bb5c;
+  margin-right: 3px;
 }

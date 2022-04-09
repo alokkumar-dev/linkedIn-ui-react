@@ -8,29 +8,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Posts_Data = [
   {
-    name: "Alok Kumar",
+    name: "Yogesh Bhat",
     about_avatar: "Appearning Full-Stack Developer. Learning From Masai School",
-    avatar: "https://i.ibb.co/FqN8fT6/Alok-kumar.jpg",
+    avatar: "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
     about_post:
-      "Most Common Leetcode DSA Problem Solving Patterns.These can be applied to solve Maximum Top Problems on Leetcode. It tells in brief that in which case you should apply which approach. It covers : Binary Search",
+      "#15 / 101 Power Skills -  Marathon Mindset  Power skills help individuals to # achieve their potential # achieve their aspirations Life is a marathon, not a sprint; pace yourself accordingly -Amby B A marathon mindset means that",
     time: "24h",
+    post_picture: "https://media-exp1.licdn.com/dms/image/C5622AQGNP8ibd4ohRA/feedshare-shrink_800/0/1649242104156?e=2147483647&v=beta&t=M2BXLaf8iciWDeP1HZxB0D2qsf8EMQCyL0I6o0FTxxY",
     likes: "Devesh Verma and 99 others",
     comments: "20 comments",
     icons: [
       {
-        likeIcon: <FontAwesomeIcon icon={faThumbsUp} />,
+        linkIcon: <FontAwesomeIcon icon={faThumbsUp} />,
         text: "Like",
       },
       {
-        likeIcon: <FontAwesomeIcon icon={faCommentDots} />,
+        commentIcon: <FontAwesomeIcon icon={faCommentDots} />,
         text: "Comment",
       },
       {
-        likeIcon: <FontAwesomeIcon icon={faArrowTurnRight} />,
+        shareIcon: <FontAwesomeIcon icon={faArrowTurnRight} />,
         text: "Share",
       },
       {
-        likeIcon: <FontAwesomeIcon icon={faPaperPlane} />,
+        sendIcon: <FontAwesomeIcon icon={faPaperPlane} />,
         text: "Send",
       },
     ],
