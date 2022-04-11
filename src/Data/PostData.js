@@ -1,8 +1,12 @@
 import {
+  faArrowAltCircleLeft,
   faArrowTurnRight,
+  faCalendar,
   faCommentDots,
+  faImage,
   faPaperPlane,
   faThumbsUp,
+  faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -101,3 +105,46 @@ export const Posts_Data = [
     ],
   },
 ];
+
+export const NAVBAR_ICONS = [
+  {
+    icon: <FontAwesomeIcon className="fa-solid" icon={faImage} />,
+    text: "Photo",
+  },
+  {
+    icon: <FontAwesomeIcon className="fa-solid" icon={faVideo} />,
+    text: "Video",
+  },
+  {
+    icon: <FontAwesomeIcon className="fa-solid" icon={faCalendar} />,
+    text: "Event",
+  },
+  {
+    icon: <FontAwesomeIcon className="fa-solid" icon={faArrowAltCircleLeft} />,
+    text: "Write aritcle",
+  },
+];
+
+export const WHO_TO_CONNECT = [
+  {
+    name: "Devesh Verma",
+    username: "deveshverma",
+    avatar: "https://media-exp1.licdn.com/dms/image/C5603AQEc0Tg_g2Mljg/profile-displayphoto-shrink_800_800/0/1645005415410?e=1655337600&v=beta&t=FVJMIiR9RZex3M8nlEmLdNB5b6OmqntHR1ZHT2EH8oQ",
+  },
+  {
+    name: "Deepak Sharma",
+    username: "dasjideepak",
+    avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+  },
+  {
+    name: "Deepak Sharma",
+    username: "dasjideepak",
+    avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+  },
+  {
+    name: "Deepak Sharma",
+    username: "dasjideepak",
+    avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+  },
+  
+]

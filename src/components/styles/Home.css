@@ -21,7 +21,11 @@
 }
 .rightSide {
   flex: 2;
-  border: 1px solid black;
+  padding: 0px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .profileDiv {
   border-radius: 8px;
@@ -379,4 +383,87 @@
   font-size: 20px;
   font-weight: 600;
   margin-right: 5px;
+}
+
+/* -------------------Right Side css here----------------- */
+.connectHeading {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.connectLine{
+  width: 46%;
+  margin: auto;
+  margin-bottom: 15px;
+  background-color: #acacac;
+}
+.whoToConnect_container {
+  display: flex;
+  cursor: pointer;
+  margin:10px auto;
+  line-height: 1.2;
+  padding: 8px 5px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(243, 243, 243, 0.648);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.whoToConnect_container:hover{
+  background-color: rgba(231, 231, 231, 0.786);
+  transition: all ease .5s;
+}
+.img_src {
+  width: 40px;
+  height: 40px;
+}
+.img_src > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.connect_user_name {
+  margin-left: 5px;
+  line-height: 1.3;
+}
+.connect_user_name > h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.connect_user_name > h4 {
+  font-size: 13px;
+  color: #767c81;
+  font-weight: normal;
+}
+.connect_btn {
+  width: 90px;
+  height: 34px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 24px;
+  background-color: #0a66c2;
+  border: 1px solid #0a66c2;
+}
+.connect_btn:hover{
+  transition: all ease .5s;
+  background-color:#00478d;
+}
+.showMorediv{
+  width: 100%;
+  /* margin-top: 10px; */
+  border-radius: 8px 8px 0 0;
+  /* border-top: 1px solid #000; */
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+.showMorediv:hover{
+  background-color: rgb(254, 254, 245);
+}
+.showMorediv>h4{
+  color: #0064c9;
+  padding: 10px;
 }
