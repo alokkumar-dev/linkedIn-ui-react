@@ -137,12 +137,12 @@ export const WHO_TO_CONNECT = [
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
   },
   {
-    name: "Deepak Sharma",
+    name: "Sudhanshu kumar",
     username: "dasjideepak",
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
   },
   {
-    name: "Deepak Sharma",
+    name: "Saurabh Yadav",
     username: "dasjideepak",
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
   },
