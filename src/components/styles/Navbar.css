@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -11,30 +11,26 @@ nav {
   background-color: #fff;
 }
 .navContainer {
-  font-family: sans-serif;
-  padding: 8px 0;
   width: 75%;
+  margin: auto;
   height: 38px;
   display: flex;
-  margin: auto;
+  padding: 8px 0;
   text-align: center;
+  font-family: sans-serif;
 }
 .navLeftSide {
   flex: 3;
-  margin-right: 10%;
   display: flex;
-  
-  /* border: 1px solid black; */
+  margin-right: 10%;
 }
 .navMiddleSide {
   flex: 4;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-around;
 }
 .navRightSide {
   flex: 2;
-  /* border: 1px solid black; */
 }
 
 .logo > img {
@@ -42,29 +38,27 @@ nav {
   height: 90%;
 }
 .inputField {
-  height: 90%;
-  margin-left: 5px;
   width: 70%;
-  font-size: 16px;
-  padding: 0 5px;
-  line-height: 28px;
-  color: #000000e6;
-  border-radius: 5px;
+  height: 90%;
   border: none;
+  padding: 0 5px;
+  font-size: 16px;
+  margin-left: 5px;
+  line-height: 28px;
+  border-radius: 5px;
+  color: #000000e6;
   background-color: #eef3f8;
 }
 .fa-icon {
-  color: #5b5b5be6;
   font-size: 18px;
   font-weight: 400;
-  
+  color: #5b5b5be6;
 }
 .link {
-  cursor: pointer;
   width: 100%;
+  cursor: pointer;
   color: #787878;
   text-decoration: none;
-  /* border: 1px solid; */
 }
 .text {
   margin: 1px;
@@ -75,15 +69,14 @@ nav {
   color: black;
 }
 .avatar {
-  height: 20px;
   width: 25px;
-  border-radius: 50%;
+  height: 20px;
   display: block;
   margin-left: 30%;
+  border-radius: 50%;
 }
-.fa-icon:hover{
+.fa-icon:hover {
   color: black;
-  /* background-color: black; */
 }
 .avatar-text {
   margin-top: 0;

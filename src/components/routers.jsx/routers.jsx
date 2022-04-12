@@ -11,11 +11,11 @@ export const AllRouters = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home /> } />
-        <Route path="/mynetwork" element={<MyNetwork /> } />
-        <Route path="/jobs" element={<Jobs /> } />
-        <Route path="/messaging" element={<Messaging /> } />
-        <Route path="/notification" element={<Notification /> } />
+        <Route path="/" element={<Home />} />
+        <Route path="/mynetwork" element={<MyNetwork />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/messaging" element={<Messaging />} />
+        <Route path="/notification" element={<Notification />} />
       </Routes>
     </>
   );
