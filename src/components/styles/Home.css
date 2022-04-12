@@ -6,12 +6,12 @@
   background-color: #f3f2ef;
 }
 .homeContainer {
-  font-family: sans-serif;
-  width: 75%;
-  display: flex;
-  margin: auto;
-  padding-top: 70px;
   gap: 2%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  padding-top: 80px;
+  font-family: sans-serif;
 }
 .leftSide {
   flex: 2;
@@ -23,8 +23,8 @@
   flex: 2;
   padding: 0px 10px;
   border-radius: 8px;
-  background-color: #fff;
   height: fit-content;
+  background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .profileDiv {
@@ -181,8 +181,8 @@
   background-color: #e8e8e8;
 }
 .top {
-  padding-bottom: 8px;
   border-radius: 8px;
+  padding-bottom: 8px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -196,14 +196,18 @@
   border-radius: 50%;
   margin-right: 12px;
 }
-.searchDiv > input {
+.postInput {
   width: 90%;
   height: 47px;
   font-size: 16px;
+  cursor: pointer;
   font-weight: 500;
   padding-left: 10px;
   border-radius: 30px;
   border: 1px solid silver;
+}
+.postInput:hover{
+  background-color: #ebebeb;
 }
 .buttons {
   height: 40px;

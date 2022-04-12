@@ -77,6 +77,7 @@ export const Home = () => {
                   className="postInput"
                   type="text"
                   placeholder="Start a post"
+                  disabled
                 />
               </div>
 
