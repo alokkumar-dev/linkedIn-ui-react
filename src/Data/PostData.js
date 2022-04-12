@@ -138,12 +138,12 @@ export const WHO_TO_CONNECT = [
   },
   {
     name: "Sudhanshu kumar",
-    username: "dasjideepak",
+    username: "sudhanshukumar",
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
   },
   {
     name: "Saurabh Yadav",
-    username: "dasjideepak",
+    username: "saurabhyadav",
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
   },
   

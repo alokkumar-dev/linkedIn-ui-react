@@ -1,5 +1,4 @@
 import "../styles/Home.css";
-//  import {alok} from '../'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBookmark,
@@ -111,9 +110,11 @@ export const Home = () => {
                 avatar={el.avatar}
               />
             ))}
-            <hr  />
+            <hr />
             <div className="showMorediv">
-              <h4>Show more <FontAwesomeIcon icon={faAngleDown} /> </h4>
+              <h4>
+                Show more <FontAwesomeIcon icon={faAngleDown} />{" "}
+              </h4>
             </div>
           </div>
         </div>
