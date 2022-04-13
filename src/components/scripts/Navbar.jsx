@@ -64,7 +64,7 @@ export const Navbar = () => {
           <div className="navRightSide">
             <div>
               <FontAwesomeIcon className="fa-icon" icon={faGraduationCap} />
-              <h4 className="text">Notification</h4>
+              <h4 className="text">Works</h4>
             </div>
           </div>
         </div>

@@ -61,6 +61,10 @@ nav {
   color: #787878;
   text-decoration: none;
 }
+.link:focus{
+  border-bottom: 2px solid black;
+}
+
 .text {
   margin: 1px;
   font-size: 13px;
