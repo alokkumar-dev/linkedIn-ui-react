@@ -271,5 +271,10 @@ export const WHO_TO_CONNECT = [
     username: "sudhanshukumar",
     avatar: "https://media-exp1.licdn.com/dms/image/C4E03AQGOloPUitz6bw/profile-displayphoto-shrink_800_800/0/1643126839018?e=1655337600&v=beta&t=ctLZiTPArR3NUAm_0InWOg0IAknnc-2tnoudR1SuRDY",
   },
+  {
+    name: "Abhishek Prajapati",
+    username: "abhishekprajapati",
+    avatar: "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=1650088800&v=beta&t=-ZQMEk66wxUNQx6XDiZEKXWbTLmZ7DZJ8rp-JqKVkmE",
+  },
   
 ]
