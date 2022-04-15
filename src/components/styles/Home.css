@@ -21,11 +21,7 @@
 }
 .rightSide {
   flex: 2;
-  padding: 0px 10px;
-  border-radius: 8px;
   height: fit-content;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .profileDiv {
   border-radius: 8px;
@@ -281,8 +277,8 @@
   color: #5b5b5b;
 }
 .dot {
-  height: 4px;
   width: 4px;
+  height: 4px;
   margin: 5px 8px;
   border-radius: 50%;
   background-color: #3d3d3d;
@@ -294,12 +290,12 @@
 .followbtn {
   border: none;
   display: flex;
+  font-size: 18px;
   cursor: pointer;
   margin-left: 3%;
-  font-size: 18px;
   padding: 1px 8px;
-  color: #0168cf;
   font-weight: 600;
+  color: #0168cf;
   border-radius: 5px;
   height: fit-content;
 }
@@ -390,15 +386,22 @@
 }
 
 /* -------------------Right Side css here----------------- */
+.rightContainer{
+  border-radius:8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
 .connectHeading {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
-  margin-top: 15px;
+  padding-top: 15px;
   color: rgba(0, 0, 0, 0.9);
+ 
 }
 .connectLine {
   width: 46%;
+  height: .5px;
   margin: auto;
   margin-bottom: 15px;
   background-color: #acacac;
@@ -406,17 +409,17 @@
 .whoToConnect_container {
   display: flex;
   cursor: pointer;
-  margin: 10px auto;
-  line-height: 1.2;
-  padding: 8px 5px;
+  padding: 7px 3px;
   align-items: center;
-  border-radius: 10px;
-  background-color: rgba(243, 243, 243, 0.648);
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  justify-content: space-between;
+  border-top: 1px solid silver;
 }
 .whoToConnect_container:hover {
-  background-color: rgba(231, 231, 231, 0.786);
   transition: all ease 0.5s;
+  background-color: #e7e7e7c8;
+}
+.account{
+  display: flex;
 }
 .img_src {
   width: 40px;
@@ -432,8 +435,7 @@
   line-height: 1.3;
 }
 .connect_user_name > h3 {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 13px;
 }
 .connect_user_name > h4 {
   font-size: 13px;
@@ -444,9 +446,8 @@
   width: 90px;
   height: 34px;
   color: #fff;
-  cursor: pointer;
   font-size: 15px;
-  margin-left: 10px;
+  cursor: pointer;
   font-weight: bold;
   border-radius: 24px;
   background-color: #0a66c2;
@@ -458,16 +459,14 @@
 }
 .showMorediv {
   width: 100%;
-  /* margin-top: 10px; */
-  border-radius: 8px 8px 0 0;
-  /* border-top: 1px solid #000; */
-  /* border: 1px solid black; */
+  padding: 5px 0;
   cursor: pointer;
-}
-.showMorediv:hover {
-  background-color: rgb(254, 254, 245);
+  border-radius: 0 0 8px 8px;
 }
 .showMorediv > h4 {
-  color: #0064c9;
   padding: 10px;
+  color: #0064c9;
+}
+.showMorediv:hover {
+  background-color: #e7e7e7c8;
 }

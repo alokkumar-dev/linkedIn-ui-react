@@ -101,21 +101,23 @@ export const Home = () => {
             ))}
           </div>
           <div className="rightSide">
-            <h3 className="connectHeading">Who to Connect</h3>
-            <hr className="connectLine" />
-            {WHO_TO_CONNECT.map((el, i) => (
-              <WhoToconnect
-                key={i}
-                name={el.name}
-                username={el.username}
-                avatar={el.avatar}
-              />
-            ))}
-            <hr />
-            <div className="showMorediv">
-              <h4>
-                Show more <FontAwesomeIcon icon={faAngleDown} />{" "}
-              </h4>
+            <div className="rightContainer">
+              <h3 className="connectHeading">Who to Connect</h3>
+              <hr className="connectLine" />
+              {WHO_TO_CONNECT.map((el, i) => (
+                <WhoToconnect
+                  key={i}
+                  name={el.name}
+                  username={el.username}
+                  avatar={el.avatar}
+                />
+              ))}
+              <hr />
+              <div className="showMorediv">
+                <h4>
+                  Show more <FontAwesomeIcon icon={faAngleDown} />{" "}
+                </h4>
+              </div>
             </div>
           </div>
         </div>
@@ -188,13 +190,16 @@ const UserPosts = (props) => {
 const WhoToconnect = (props) => {
   return (
     <div className="whoToConnect_container">
-      <div className="img_src">
-        <img src={props.avatar} alt="userAvatar" />
+      <div className="account">
+        <div className="img_src">
+          <img src={props.avatar} alt="userAvatar" />
+        </div>
+        <div className="connect_user_name">
+          <h3>{props.name}</h3>
+          <h4>@{props.username}</h4>
+        </div>
       </div>
-      <div className="connect_user_name">
-        <h3>{props.name}</h3>
-        <h4>@{props.username}</h4>
-      </div>
+
       <button className="connect_btn">Connect</button>
     </div>
   );
