@@ -17,10 +17,10 @@
   flex: 2;
 }
 .middleSide {
-  flex: 4;
+  flex: 5;
 }
 .rightSide {
-  flex: 2;
+  flex: 3;
   height: fit-content;
 }
 .profileDiv {
@@ -38,9 +38,9 @@
   border-radius: 8px 8px 0 0;
 }
 .avatarImg {
-  width: 70px;
-  height: 70px;
-  margin-top: -45px;
+  width: 60px;
+  height: 60px;
+  margin-top: -39px;
   border-radius: 50%;
 }
 .avatarName {
@@ -187,7 +187,7 @@
   display: flex;
 }
 .searchDiv > img {
-  width: 50px;
+  width: 54px;
   height: 50px;
   border-radius: 50%;
   margin-right: 12px;
@@ -213,12 +213,24 @@
 .fa-solid {
   font-size: 23px;
   margin-right: 8px;
-  color: rgb(0, 163, 227);
 }
+.photo{
+  color: #70b5f9;
+}
+.video{
+  color: #7fc15e;
+}
+.event{
+  color: #e7a33e;
+}
+.article{
+  color: #fc9295;
+}
+
 .btnicon {
-  padding: 7px;
   display: flex;
   cursor: pointer;
+  padding: 7px 10px;
   border-radius: 5px;
   justify-content: space-between;
 }
@@ -409,7 +421,7 @@
 .whoToConnect_container {
   display: flex;
   cursor: pointer;
-  padding: 7px 3px;
+  padding: 10px 5px;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid silver;
@@ -459,7 +471,7 @@
 }
 .showMorediv {
   width: 100%;
-  padding: 5px 0;
+  padding: 8px 0;
   cursor: pointer;
   border-radius: 0 0 8px 8px;
 }
