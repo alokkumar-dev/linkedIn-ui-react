@@ -119,6 +119,37 @@ export const Home = () => {
                 </h4>
               </div>
             </div>
+            <footer className="footer">
+              <div>
+                <span>About</span>
+                <span>Accessibility</span>
+                <span>Help Center</span>
+              </div>
+              <div>
+                <span>
+                  Privacy & Terms{" "}
+                  {<FontAwesomeIcon className="downArrow" icon={faAngleDown} />}
+                </span>
+                <span>Ad Choices</span>
+              </div>
+              <div>
+                <span>Advertising </span>
+                <span>
+                  Business Services{" "}
+                  {<FontAwesomeIcon className="downArrow" icon={faAngleDown} />}
+                </span>
+              </div>
+              <div>
+                <span>Get the LinkedIn app</span>
+                <span>More</span>
+              </div>
+              <div className="corporation">
+                <span className="linked">
+                  Linked <span className="in">in</span>
+                </span>
+                <span>LinkedIn corporation © 2022</span>
+              </div>
+            </footer>
           </div>
         </div>
       </div>

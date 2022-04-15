@@ -39,7 +39,7 @@
 }
 .avatarImg {
   width: 60px;
-  height: 60px;
+  height: 65px;
   margin-top: -39px;
   border-radius: 50%;
 }
@@ -202,8 +202,9 @@
   border-radius: 30px;
   border: 1px solid silver;
 }
-.postInput:hover{
+.postInput:hover {
   background-color: #ebebeb;
+  transition: all ease 0.5s;
 }
 .buttons {
   height: 40px;
@@ -214,16 +215,16 @@
   font-size: 23px;
   margin-right: 8px;
 }
-.photo{
+.photo {
   color: #70b5f9;
 }
-.video{
+.video {
   color: #7fc15e;
 }
-.event{
+.event {
   color: #e7a33e;
 }
-.article{
+.article {
   color: #fc9295;
 }
 
@@ -243,6 +244,7 @@
 }
 .btnicon:hover {
   background-color: #e8e8e8;
+  transition: all ease 0.5s;
 }
 /* -----------Post css here ----------------- */
 .postsMainDiv {
@@ -398,8 +400,8 @@
 }
 
 /* -------------------Right Side css here----------------- */
-.rightContainer{
-  border-radius:8px;
+.rightContainer {
+  border-radius: 8px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -409,11 +411,10 @@
   font-weight: 600;
   padding-top: 15px;
   color: rgba(0, 0, 0, 0.9);
- 
 }
 .connectLine {
   width: 46%;
-  height: .5px;
+  height: 0.5px;
   margin: auto;
   margin-bottom: 15px;
   background-color: #acacac;
@@ -430,7 +431,7 @@
   transition: all ease 0.5s;
   background-color: #e7e7e7c8;
 }
-.account{
+.account {
   display: flex;
 }
 .img_src {
@@ -481,4 +482,44 @@
 }
 .showMorediv:hover {
   background-color: #e7e7e7c8;
+}
+
+/* -----------Footer css here.--------------- */
+.footer {
+  /* border: 1px solid; */
+  margin: 20px auto;
+  text-align: center;
+}
+.footer > div > span {
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #636363;
+  font-family: sans-serif;
+  font-style: normal;
+  cursor: pointer;
+}
+.footer > div > span:hover {
+  color: #0a66c2;
+  text-decoration: underline;
+}
+.downArrow {
+  font-size: 13px;
+}
+
+.corporation > .linked {
+  line-height: 36px;
+  font-size: 12px;
+  color: #0a66c2;
+  font-weight: 800;
+}
+.corporation > .linked > .in {
+  font-size: 11px;
+  margin-left: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0 3px;
+  color: white;
+  background-color: #0a66c2;
 }
