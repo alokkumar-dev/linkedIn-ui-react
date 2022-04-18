@@ -31,19 +31,19 @@ export const Navbar = () => {
               <h4 className="text">Home</h4>
             </Link>
 
-            <Link to={"/mynetwork"} className="link">
+            <Link to={"/"} className="link">
               <FontAwesomeIcon className="fa-icon" icon={faUserGroup} />
               <h4 className="text">My Network</h4>
             </Link>
-            <Link to={"/jobs"} className="link">
+            <Link to={"/"} className="link">
               <FontAwesomeIcon className="fa-icon" icon={faToolbox} />
               <h4 className="text">Jobs</h4>
             </Link>
-            <Link to={"/messaging"} className="link">
+            <Link to={"/"} className="link">
               <FontAwesomeIcon className="fa-icon" icon={faCommentDots} />
               <h4 className="text">Messaging</h4>
             </Link>
-            <Link to={"/notification"} className="link">
+            <Link to={"/"} className="link">
               <FontAwesomeIcon className="fa-icon" icon={faBell} />
               <h4 className="text">Notification</h4>
             </Link>
