@@ -106,17 +106,17 @@ export const Posts_Data = [
     ],
   },
   {
-    name: "Yogesh Bhat",
-    about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
+    name: "Prateek Shukla",
+    about_avatar: "Hiring for leadership positions in product & engineering at Masai",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
+      "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1655942400&v=beta&t=a-ZWuP6G5_txcvdag26NV7O25xldJEkbV8b-_Tpi6Qs",
     about_post:
-      "#15 / 101 Power Skills -  Marathon Mindset  Power skills help individuals to # achieve their potential # achieve their aspirations Life is a marathon, not a sprint; pace yourself accordingly -Amby B A marathon mindset means that",
-    time: "24h",
+      "🚨 Announcement 🚨  National Skill Development Corporation 🤝 Masai School to skill 1.5 lacs students of 🇮🇳 What it entails for our students 👇 - All the students who graduate from Masai will be certified by the NSDC at the time of graduation 😍",
+    time: "3w",
     post_picture:
-      "https://media-exp1.licdn.com/dms/image/C5622AQGNP8ibd4ohRA/feedshare-shrink_800/0/1649242104156?e=2147483647&v=beta&t=M2BXLaf8iciWDeP1HZxB0D2qsf8EMQCyL0I6o0FTxxY",
-    likes: "Devesh Verma and 99 others",
-    comments: "20 comments",
+      "https://media-exp1.licdn.com/dms/image/sync/C5627AQEhk40IBYv7IA/articleshare-shrink_800/0/1649852703718?e=1650380400&v=beta&t=D7KWfuS0TkBhO9iX_kAwC86T-pS1rnLRww28UUOpiYY",
+    likes: "Saurabh Yadav and 1,090 others",
+    comments: "45 comments",
     icons: [
       {
         icon: <FontAwesomeIcon icon={faThumbsUp} />,
@@ -137,17 +137,17 @@ export const Posts_Data = [
     ],
   },
   {
-    name: "Yogesh Bhat",
-    about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
+    name: "Abhishek Maurya",
+    about_avatar: "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
+      "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1655942400&v=beta&t=z9PqTdCh2gKC3EU3J4gFdz1iz1_dMYDCGwk1LTvaD5I",
     about_post:
-      "#15 / 101 Power Skills -  Marathon Mindset  Power skills help individuals to # achieve their potential # achieve their aspirations Life is a marathon, not a sprint; pace yourself accordingly -Amby B A marathon mindset means that",
-    time: "24h",
+      "Hello fam, I am delighted to share that I have joined Masai School as an Instructional Associate. I always loved the environment, culture and team spirit her",
+    time: "2mo",
     post_picture:
-      "https://media-exp1.licdn.com/dms/image/C5622AQGNP8ibd4ohRA/feedshare-shrink_800/0/1649242104156?e=2147483647&v=beta&t=M2BXLaf8iciWDeP1HZxB0D2qsf8EMQCyL0I6o0FTxxY",
-    likes: "Devesh Verma and 99 others",
-    comments: "20 comments",
+      "https://media.licdn.com/media/AAYQAQQSAAgAAQAAAAAAABwEEXEeLoHISM2cU9LdzliLaQ.gif",
+    likes: "Rohan Verma and 130 others",
+    comments: "30 comments",
     icons: [
       {
         icon: <FontAwesomeIcon icon={faThumbsUp} />,
@@ -168,16 +168,16 @@ export const Posts_Data = [
     ],
   },
   {
-    name: "Yogesh Bhat",
-    about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
+    name: "Manthan Gaikwad",
+    about_avatar: "Associate Software Engineer @ Indus Net Technologies",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
+      "https://media-exp1.licdn.com/dms/image/C5603AQGDju7zb2KCGA/profile-displayphoto-shrink_800_800/0/1648480695796?e=1655942400&v=beta&t=zACJq-FApJKhwOF46gYfjm8FM8NqP4CbV-znSz9edeg",
     about_post:
       "#15 / 101 Power Skills -  Marathon Mindset  Power skills help individuals to # achieve their potential # achieve their aspirations Life is a marathon, not a sprint; pace yourself accordingly -Amby B A marathon mindset means that",
-    time: "24h",
+    time: "2w",
     post_picture:
-      "https://media-exp1.licdn.com/dms/image/C5622AQGNP8ibd4ohRA/feedshare-shrink_800/0/1649242104156?e=2147483647&v=beta&t=M2BXLaf8iciWDeP1HZxB0D2qsf8EMQCyL0I6o0FTxxY",
-    likes: "Devesh Verma and 99 others",
+      "https://media.licdn.com/media/AAYQAQQSAAgAAQAAAAAAABqdcB5EZ18gQPCF4HzBOFBBhw.gif",
+    likes: "Kapil Mogre and 165 others",
     comments: "20 comments",
     icons: [
       {
@@ -281,5 +281,11 @@ export const WHO_TO_CONNECT = [
     username: "abhishekprajapati",
     avatar:
       "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=1650088800&v=beta&t=-ZQMEk66wxUNQx6XDiZEKXWbTLmZ7DZJ8rp-JqKVkmE",
+  },
+  {
+    name: "Abhishek Shukla",
+    username: "abhishekshukla",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=1650380400&v=beta&t=IYNuCq8pakFZdMFrfRKBO2ewb-fuq29nIXj7RGEs_2Y",
   },
 ];
