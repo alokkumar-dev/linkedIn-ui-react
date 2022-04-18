@@ -170,14 +170,16 @@ const UserPosts = (props) => {
   return (
     <div className="postsMainDiv">
       <div className="useDetails">
-        <img className="userAvatar" src={props.avatar} alt="" />
         <div className="avatarDetails">
-          <h4>{props.name}</h4>
-          <p>{props.about_avatar}</p>
-          <div className="postime">
-            <p>3D</p>
-            <div className="dot"></div>
-            <FontAwesomeIcon className="earthIcon" icon={faEarth} />
+          <img className="userAvatar" src={props.avatar} alt="" />
+          <div>
+            <h4>{props.name}</h4>
+            <p>{props.about_avatar}</p>
+            <div className="postime">
+              <p>3D</p>
+              <div className="dot"></div>
+              <FontAwesomeIcon className="earthIcon" icon={faEarth} />
+            </div>
           </div>
         </div>
         <div className="followbtn">

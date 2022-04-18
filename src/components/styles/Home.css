@@ -257,16 +257,20 @@
 .useDetails {
   display: flex;
   margin: 20px auto;
+  justify-content: space-between;
 }
 .userAvatar {
   width: 50px;
   height: 50px;
   cursor: pointer;
   margin-left: 13px;
-  margin-right: 5px;
+  margin-right: 7px;
   border-radius: 50%;
 }
-.avatarDetails > h4 {
+.avatarDetails{
+  display: flex;
+}
+.avatarDetails>div > h4 {
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
@@ -277,7 +281,7 @@
   color: #0168cf;
   text-decoration: underline;
 }
-.avatarDetails > p {
+.avatarDetails>div > p {
   font-size: 13px;
   font-weight: 400;
   color: #5b5b5b;
@@ -306,7 +310,7 @@
   display: flex;
   font-size: 18px;
   cursor: pointer;
-  margin-left: 3%;
+  margin-right: 3%;
   padding: 1px 8px;
   font-weight: 600;
   color: #0168cf;
