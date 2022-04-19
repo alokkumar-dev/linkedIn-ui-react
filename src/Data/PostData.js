@@ -1,5 +1,4 @@
 import {
-  faArrowAltCircleLeft,
   faArrowTurnRight,
   faCalendar,
   faCommentDots,
@@ -48,13 +47,44 @@ export const Posts_Data = [
     about_avatar: "Full Stack JavaScript Developer",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
-    about_post:
-      "First reward from my corporate life #credilio",
+    about_post: "First reward from my corporate life #credilio",
     time: "6mo",
     post_picture:
       "https://media-exp1.licdn.com/dms/image/C4E22AQEWaflE7xAVnA/feedshare-shrink_800/0/1637339655972?e=2147483647&v=beta&t=IhAqB8T0D1MfwzGBA_6rZx9orwn3rV77E4-jzrKN2Ms",
     likes: "Abhishek prajapati and 136 others",
     comments: "5 comments",
+    icons: [
+      {
+        icon: <FontAwesomeIcon icon={faThumbsUp} />,
+        text: "Like",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faCommentDots} />,
+        text: "Comment",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
+        text: "Share",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faPaperPlane} />,
+        text: "Send",
+      },
+    ],
+  },
+  {
+    name: "Bhabana Samantara",
+    about_avatar:
+      "Frontend web developer at The UniQue Culture| A Multinational Software Development",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C5603AQF88c9LoExwbA/profile-displayphoto-shrink_800_800/0/1648892490663?e=1655942400&v=beta&t=WYLNXL41d0MZGhrEumsjrAOiVVMgBDr-FapvhH5NyR0",
+    about_post:
+      "Here is the Certificate of Web development from Hindi Tech Tutorials... Thank you Rajdeep Dhakad sir for being a good mentor and for guiding me on the right path...I will always be grateful to you for your support 🙏🙏😊",
+    time: "1yr",
+    post_picture:
+      "https://media-exp1.licdn.com/dms/image/C5622AQE3LrydUAfdXg/feedshare-shrink_800/0/1620451203123?e=2147483647&v=beta&t=kAjkntY0yh_EvlXNX1Gd1L--Fybm_PByEE5SthKO73s",
+    likes: "You and 26 others",
+    comments: "20 comments",
     icons: [
       {
         icon: <FontAwesomeIcon icon={faThumbsUp} />,
@@ -107,7 +137,8 @@ export const Posts_Data = [
   },
   {
     name: "Prateek Shukla",
-    about_avatar: "Hiring for leadership positions in product & engineering at Masai",
+    about_avatar:
+      "Hiring for leadership positions in product & engineering at Masai",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1655942400&v=beta&t=a-ZWuP6G5_txcvdag26NV7O25xldJEkbV8b-_Tpi6Qs",
     about_post:
@@ -138,7 +169,8 @@ export const Posts_Data = [
   },
   {
     name: "Abhishek Maurya",
-    about_avatar: "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
+    about_avatar:
+      "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1655942400&v=beta&t=z9PqTdCh2gKC3EU3J4gFdz1iz1_dMYDCGwk1LTvaD5I",
     about_post:
@@ -199,17 +231,17 @@ export const Posts_Data = [
     ],
   },
   {
-    name: "Yogesh Bhat",
-    about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
+    name: "Akshay Saini",
+    about_avatar: "Engineer at Uber | Teacher | YouTuber",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
+      "https://media-exp1.licdn.com/dms/image/C5103AQGDGDnudfmZTQ/profile-displayphoto-shrink_800_800/0/1579620531120?e=1655942400&v=beta&t=MuC4uE73lP3lr_QgK_ZI2g38BK5J4CLPKG09-Uy9PBg",
     about_post:
-      "#15 / 101 Power Skills -  Marathon Mindset  Power skills help individuals to # achieve their potential # achieve their aspirations Life is a marathon, not a sprint; pace yourself accordingly -Amby B A marathon mindset means that",
-    time: "24h",
+      "Wohooo, what a meet-up it was in Hyderabad!! 🤩🤩 Thank you for taking out time and joining,it was just amazing meeting you in person. 😇",
+    time: "2w",
     post_picture:
-      "https://media-exp1.licdn.com/dms/image/C5622AQGNP8ibd4ohRA/feedshare-shrink_800/0/1649242104156?e=2147483647&v=beta&t=M2BXLaf8iciWDeP1HZxB0D2qsf8EMQCyL0I6o0FTxxY",
-    likes: "Devesh Verma and 99 others",
-    comments: "20 comments",
+      "https://media-exp1.licdn.com/dms/image/C4D22AQHeoiyw9PReQw/feedshare-shrink_2048_1536/0/1650335402761?e=2147483647&v=beta&t=VBjzMsubTfOYEdamVPNg6DVy8rHCCRI_w331dDUE808",
+    likes: "You and 6,220 others",
+    comments: "23 comments",
     icons: [
       {
         icon: <FontAwesomeIcon icon={faThumbsUp} />,
