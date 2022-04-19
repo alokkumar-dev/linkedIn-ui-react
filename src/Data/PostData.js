@@ -12,6 +12,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Posts_Data = [
   {
+    name: "Prateek Shukla",
+    about_avatar:
+      "Hiring for leadership positions in product & engineering at Masai",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1655942400&v=beta&t=a-ZWuP6G5_txcvdag26NV7O25xldJEkbV8b-_Tpi6Qs",
+    about_post:
+      "🚨 Announcement 🚨  National Skill Development Corporation 🤝 Masai School to skill 1.5 lacs students of 🇮🇳 What it entails for our students 👇 - All the students who graduate from Masai will be certified by the NSDC at the time of graduation 😍",
+    time: "3w",
+    post_picture:
+      "https://media-exp1.licdn.com/dms/image/sync/C5627AQEhk40IBYv7IA/articleshare-shrink_800/0/1649852703718?e=1650380400&v=beta&t=D7KWfuS0TkBhO9iX_kAwC86T-pS1rnLRww28UUOpiYY",
+    likes: "Saurabh Yadav and 1,090 others",
+    comments: "45 comments",
+    icons: [
+      {
+        icon: <FontAwesomeIcon icon={faThumbsUp} />,
+        text: "Like",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faCommentDots} />,
+        text: "Comment",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
+        text: "Share",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faPaperPlane} />,
+        text: "Send",
+      },
+    ],
+  },
+  {
     name: "Yogesh Bhat",
     about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
     avatar:
@@ -136,70 +168,6 @@ export const Posts_Data = [
     ],
   },
   {
-    name: "Prateek Shukla",
-    about_avatar:
-      "Hiring for leadership positions in product & engineering at Masai",
-    avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1655942400&v=beta&t=a-ZWuP6G5_txcvdag26NV7O25xldJEkbV8b-_Tpi6Qs",
-    about_post:
-      "🚨 Announcement 🚨  National Skill Development Corporation 🤝 Masai School to skill 1.5 lacs students of 🇮🇳 What it entails for our students 👇 - All the students who graduate from Masai will be certified by the NSDC at the time of graduation 😍",
-    time: "3w",
-    post_picture:
-      "https://media-exp1.licdn.com/dms/image/sync/C5627AQEhk40IBYv7IA/articleshare-shrink_800/0/1649852703718?e=1650380400&v=beta&t=D7KWfuS0TkBhO9iX_kAwC86T-pS1rnLRww28UUOpiYY",
-    likes: "Saurabh Yadav and 1,090 others",
-    comments: "45 comments",
-    icons: [
-      {
-        icon: <FontAwesomeIcon icon={faThumbsUp} />,
-        text: "Like",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faCommentDots} />,
-        text: "Comment",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
-        text: "Share",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faPaperPlane} />,
-        text: "Send",
-      },
-    ],
-  },
-  {
-    name: "Abhishek Maurya",
-    about_avatar:
-      "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
-    avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1655942400&v=beta&t=z9PqTdCh2gKC3EU3J4gFdz1iz1_dMYDCGwk1LTvaD5I",
-    about_post:
-      "Hello fam, I am delighted to share that I have joined Masai School as an Instructional Associate. I always loved the environment, culture and team spirit her",
-    time: "2mo",
-    post_picture:
-      "https://media.licdn.com/media/AAYQAQQSAAgAAQAAAAAAABwEEXEeLoHISM2cU9LdzliLaQ.gif",
-    likes: "Rohan Verma and 130 others",
-    comments: "30 comments",
-    icons: [
-      {
-        icon: <FontAwesomeIcon icon={faThumbsUp} />,
-        text: "Like",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faCommentDots} />,
-        text: "Comment",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
-        text: "Share",
-      },
-      {
-        icon: <FontAwesomeIcon icon={faPaperPlane} />,
-        text: "Send",
-      },
-    ],
-  },
-  {
     name: "Manthan Gaikwad",
     about_avatar: "Associate Software Engineer @ Indus Net Technologies",
     avatar:
@@ -242,6 +210,38 @@ export const Posts_Data = [
       "https://media-exp1.licdn.com/dms/image/C4D22AQHeoiyw9PReQw/feedshare-shrink_2048_1536/0/1650335402761?e=2147483647&v=beta&t=VBjzMsubTfOYEdamVPNg6DVy8rHCCRI_w331dDUE808",
     likes: "You and 6,220 others",
     comments: "23 comments",
+    icons: [
+      {
+        icon: <FontAwesomeIcon icon={faThumbsUp} />,
+        text: "Like",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faCommentDots} />,
+        text: "Comment",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
+        text: "Share",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faPaperPlane} />,
+        text: "Send",
+      },
+    ],
+  },
+  {
+    name: "Abhishek Maurya",
+    about_avatar:
+      "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1655942400&v=beta&t=z9PqTdCh2gKC3EU3J4gFdz1iz1_dMYDCGwk1LTvaD5I",
+    about_post:
+      "Hello fam, I am delighted to share that I have joined Masai School as an Instructional Associate. I always loved the environment, culture and team spirit her",
+    time: "2mo",
+    post_picture:
+      "https://media.licdn.com/media/AAYQAQQSAAgAAQAAAAAAABwEEXEeLoHISM2cU9LdzliLaQ.gif",
+    likes: "Rohan Verma and 130 others",
+    comments: "30 comments",
     icons: [
       {
         icon: <FontAwesomeIcon icon={faThumbsUp} />,
