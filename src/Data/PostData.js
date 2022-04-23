@@ -261,6 +261,38 @@ export const Posts_Data = [
       },
     ],
   },
+  {
+    name: "Sheelu Kumar",
+    about_avatar:
+      "Full Stack Dev | Instructional associate @masaischool",
+    avatar:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGqAMHXmA8HdQ/profile-displayphoto-shrink_800_800/0/1631989874549?e=1655942400&v=beta&t=z8AItpnS4y-3HZaL4M4tGwiYSr49osb4FWB-r4fzzL0",
+    about_post:
+      "Hello everyone, I feel really blessed to share that I have now Joined Masai School as an Instructional Associate (IA).It have been a wonderful journey in masai and thanks to all the support and training given by Nrupul Dev Yogesh Bhat Prateek Shukla Chandra Sekhar Swanand Kadam Dhaval Chheda Prabhanjan Padhye  Neeraj Malwal and all Masai School operation team.",
+    time: "1mo",
+    post_picture:
+      "https://media.licdn.com/media/AAYQAQQSAAgAAQAAAAAAABqdcB5EZ18gQPCF4HzBOFBBhw.gif",
+    likes: "You and 120 others",
+    comments: "25 comments",
+    icons: [
+      {
+        icon: <FontAwesomeIcon icon={faThumbsUp} />,
+        text: "Like",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faCommentDots} />,
+        text: "Comment",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faArrowTurnRight} />,
+        text: "Share",
+      },
+      {
+        icon: <FontAwesomeIcon icon={faPaperPlane} />,
+        text: "Send",
+      },
+    ],
+  },
 ];
 
 export const NAVBAR_ICONS = [
@@ -312,7 +344,7 @@ export const WHO_TO_CONNECT = [
     name: "Abhishek Prajapati",
     username: "abhishekprajapati",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=1650088800&v=beta&t=-ZQMEk66wxUNQx6XDiZEKXWbTLmZ7DZJ8rp-JqKVkmE",
+      "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=2147483647&v=beta&t=-pkmBOVG0F4ItajDP6OUzi-EOe8XpV_lxvzJ3inaAzc",
   },
   {
     name: "Abhishek Shukla",

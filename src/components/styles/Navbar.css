@@ -48,6 +48,7 @@ nav {
   border-radius: 5px;
   color: #000000e6;
   background-color: #eef3f8;
+  position: relative;
 }
 
 .fa-icon {
@@ -61,7 +62,7 @@ nav {
   color: #787878;
   text-decoration: none;
 }
-.link:focus{
+.link:focus {
   border-bottom: 2px solid black;
 }
 
