@@ -21,7 +21,7 @@ export const Posts_Data = [
       "🚨 Announcement 🚨  National Skill Development Corporation 🤝 Masai School to skill 1.5 lacs students of 🇮🇳 What it entails for our students 👇 - All the students who graduate from Masai will be certified by the NSDC at the time of graduation 😍",
     time: "3w",
     post_picture:
-      "https://media-exp1.licdn.com/dms/image/sync/C5627AQEhk40IBYv7IA/articleshare-shrink_800/0/1649852703718?e=1650380400&v=beta&t=D7KWfuS0TkBhO9iX_kAwC86T-pS1rnLRww28UUOpiYY",
+      "https://gumlet.assettype.com/freepressjournal/2022-03/8c68c141-fca0-4ebc-beb2-5592d2987ba3/Masai_partners_with_NSDC__image_2.jpg?format=webp&dpr=1.0&q=70&w=768",
     likes: "Saurabh Yadav and 1,090 others",
     comments: "45 comments",
     icons: [
@@ -263,8 +263,7 @@ export const Posts_Data = [
   },
   {
     name: "Sheelu Kumar",
-    about_avatar:
-      "Full Stack Dev | Instructional associate @masaischool",
+    about_avatar: "Full Stack Dev | Instructional associate @masaischool",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4E03AQGqAMHXmA8HdQ/profile-displayphoto-shrink_800_800/0/1631989874549?e=1655942400&v=beta&t=z8AItpnS4y-3HZaL4M4tGwiYSr49osb4FWB-r4fzzL0",
     about_post:
@@ -344,7 +343,7 @@ export const WHO_TO_CONNECT = [
     name: "Abhishek Prajapati",
     username: "abhishekprajapati",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=2147483647&v=beta&t=-pkmBOVG0F4ItajDP6OUzi-EOe8XpV_lxvzJ3inaAzc",
+      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=2147483647&v=beta&t=8HZxGFrQESFtdHpyV_rOSOxbqFHAxOue-QG6_YmiOLs",
   },
   {
     name: "Abhishek Shukla",
