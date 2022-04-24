@@ -343,12 +343,12 @@ export const WHO_TO_CONNECT = [
     name: "Abhishek Prajapati",
     username: "abhishekprajapati",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=2147483647&v=beta&t=8HZxGFrQESFtdHpyV_rOSOxbqFHAxOue-QG6_YmiOLs",
+      "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=2147483647&v=beta&t=-pkmBOVG0F4ItajDP6OUzi-EOe8XpV_lxvzJ3inaAzc",
   },
   {
     name: "Abhishek Shukla",
     username: "abhishekshukla",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=1650380400&v=beta&t=IYNuCq8pakFZdMFrfRKBO2ewb-fuq29nIXj7RGEs_2Y",
+      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=2147483647&v=beta&t=8HZxGFrQESFtdHpyV_rOSOxbqFHAxOue-QG6_YmiOLs",
   },
 ];
