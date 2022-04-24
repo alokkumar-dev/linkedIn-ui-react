@@ -95,7 +95,7 @@ export const Home = () => {
                 about_avatar={el.about_avatar}
                 about_post={el.about_post}
                 post_picture={el.post_picture}
-                time= {el.time}
+                time={el.time}
                 likes={el.likes}
                 icons={el.icons}
               />
@@ -167,7 +167,7 @@ const NavbarIcons = (props) => {
   );
 };
 
-const UserPosts = (props) => {
+function UserPosts(props) {
   return (
     <div className="postsMainDiv">
       <div className="useDetails">
@@ -219,7 +219,7 @@ const UserPosts = (props) => {
       </div>
     </div>
   );
-};
+}
 
 const WhoToconnect = (props) => {
   return (

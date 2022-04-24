@@ -6,6 +6,7 @@ import {
   faNewspaper,
   faPaperPlane,
   faThumbsUp,
+  faToolbox,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -304,8 +305,8 @@ export const NAVBAR_ICONS = [
     text: "Video",
   },
   {
-    icon: <FontAwesomeIcon className="fa-solid event" icon={faCalendar} />,
-    text: "Event",
+    icon: <FontAwesomeIcon className="fa-solid job" icon={faToolbox} />,
+    text: "Job",
   },
   {
     icon: <FontAwesomeIcon className="fa-solid article" icon={faNewspaper} />,
