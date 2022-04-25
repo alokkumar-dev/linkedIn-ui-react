@@ -38,17 +38,17 @@ nav {
   height: 90%;
 }
 .inputField {
-  width: 70%;
+  width: 90%;
   height: 90%;
   border: none;
   padding: 0 5px;
   font-size: 16px;
   margin-left: 5px;
   line-height: 28px;
-  border-radius: 5px;
-  color: #000000e6;
-  background-color: #eef3f8;
   position: relative;
+  color: #000000e6;
+  border-radius: 5px;
+  background-color: #eef3f8;
 }
 
 .fa-icon {
@@ -60,10 +60,23 @@ nav {
   width: 100%;
   cursor: pointer;
   color: #787878;
+  position: relative;
   text-decoration: none;
 }
-.link:focus {
-  border-bottom: 2px solid black;
+.link::after {
+  left: 6%;
+  bottom: 0;
+  width: 90%;
+  content: "";
+  height: 1.5px;
+  position: absolute;
+  transition: 0.4s ease;
+  transform: scale(0, 1);
+  transform-origin: 0 100%;
+  background-color: #000;
+}
+.link:hover:after {
+  transform: scale(1, 1);
 }
 
 .text {
