@@ -9,7 +9,7 @@ import {
   faThumbsUp,
   faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
-import { NAVBAR_ICONS, Posts_Data, WHO_TO_CONNECT } from "../../Data/PostData";
+import { NAVBAR_ICONS, Posts_Data, WHO_TO_CONNECT } from "../../Data/data";
 export const Home = () => {
   return (
     <>

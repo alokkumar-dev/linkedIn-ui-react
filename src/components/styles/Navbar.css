@@ -25,7 +25,7 @@ nav {
   margin-right: 10%;
 }
 .navMiddleSide {
-  flex: 4;
+  flex: 5.5;
   display: flex;
   justify-content: space-around;
 }

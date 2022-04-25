@@ -1,6 +1,5 @@
 import {
   faArrowTurnRight,
-  faCalendar,
   faCommentDots,
   faImage,
   faNewspaper,
@@ -628,9 +627,15 @@ export const WHO_TO_CONNECT = [
       "https://media-exp1.licdn.com/dms/image/D4E35AQFjrxlxPFwB7g/profile-framedphoto-shrink_800_800/0/1626158748115?e=2147483647&v=beta&t=-pkmBOVG0F4ItajDP6OUzi-EOe8XpV_lxvzJ3inaAzc",
   },
   {
-    name: "Abhishek Shukla",
-    username: "abhishekshukla",
+    name: "Shadik Husain",
+    username: "shadikhusain",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=2147483647&v=beta&t=8HZxGFrQESFtdHpyV_rOSOxbqFHAxOue-QG6_YmiOLs",
+      "https://media-exp1.licdn.com/dms/image/D4D35AQH8iHtLqJMJ_Q/profile-framedphoto-shrink_800_800/0/1646566001101?e=2147483647&v=beta&t=D2Lv0Wm448nIhICjDNCD7xKVs7VzNiMij8kY-51Z_lA",
   },
+  // {
+  //   name: "Abhishek Shukla",
+  //   username: "abhishekshukla",
+  //   avatar:
+  //     "https://media-exp1.licdn.com/dms/image/D4E35AQF9Ta3ja8CIpA/profile-framedphoto-shrink_800_800/0/1648032016990?e=2147483647&v=beta&t=8HZxGFrQESFtdHpyV_rOSOxbqFHAxOue-QG6_YmiOLs",
+  // },
 ];
