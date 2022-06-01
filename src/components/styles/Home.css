@@ -4,6 +4,8 @@
 }
 .main {
   background-color: #f3f2ef;
+  /* width: 100%;
+  margin: auto; */
 }
 .homeContainer {
   gap: 2%;
@@ -274,10 +276,10 @@
   margin-right: 7px;
   border-radius: 50%;
 }
-.avatarDetails{
+.avatarDetails {
   display: flex;
 }
-.avatarDetails>div > h4 {
+.avatarDetails > div > h4 {
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
@@ -288,7 +290,7 @@
   color: #0168cf;
   text-decoration: underline;
 }
-.avatarDetails>div > p {
+.avatarDetails > div > p {
   font-size: 13px;
   font-weight: 400;
   color: #5b5b5b;
@@ -533,3 +535,21 @@
   border-radius: 5px;
   background-color: #0a66c2;
 }
+
+/* All Media query start from here.. */
+
+@media (min-width: 770px) and (max-width: 920px) {
+  .rightSide {
+    display: none;
+  }
+  .homeContainer {
+    width: 90%;
+    margin: auto;
+  }
+}
+/* 
+@media screen and (min-width: 990px){
+  .rightSide{
+    display: block;
+  }
+} */
