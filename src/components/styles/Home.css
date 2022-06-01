@@ -547,6 +547,12 @@
     margin: auto;
   }
 }
+
+@media (min-width: 921px) and (max-width: 1330px ){
+  .homeContainer{
+    width: 90%;
+  }
+}
 /* 
 @media screen and (min-width: 990px){
   .rightSide{
