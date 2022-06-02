@@ -101,3 +101,37 @@ nav {
   margin-top: 0;
   display: flex;
 }
+
+@media (max-width: 415px) {
+  /* nav {
+  
+  } */
+  .navContainer {
+    width: 95%;
+  }
+  .inputField{
+    display: none;
+  }
+  .navLeftSide{
+    margin-right: 0;
+    flex: 2;
+  }
+  .navRightSide{
+    display: none;
+  }
+  .navAvatarDiv{
+    display: none;
+  }
+  .navMiddleSide{
+    flex: 10;
+    margin: 0;
+  }
+  .fa-icon{
+    position: absolute;
+    top: 25%;    
+  }
+  .text{
+    display: none;
+  }
+
+}

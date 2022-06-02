@@ -34,11 +34,11 @@ export const Home = () => {
                 </p>
                 <div className="hr"></div>
                 <div className="viewes">
-                  <h3>Who viewed your profile</h3>
+                  <h3>Who's viewed your profile </h3>
                   <h4>400</h4>
                 </div>
                 <div className="viewes">
-                  <h3>Who viewed your profile</h3>
+                  <h3>Views of your video </h3>
                   <h4>850</h4>
                 </div>
                 <div className="hr"></div>

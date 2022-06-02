@@ -47,7 +47,7 @@ export const Navbar = () => {
               <FontAwesomeIcon className="fa-icon" icon={faBell} />
               <h4 className="text">Notification</h4>
             </Link>
-            <div>
+            <div className="navAvatarDiv">
               {/* <FontAwesomeIcon icon="fa-solid fa-user-large" /> */}
               {/* <FontAwesomeIcon className="fa-icon" icon={faUserLarge} /> */}
 

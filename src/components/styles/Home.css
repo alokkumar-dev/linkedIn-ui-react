@@ -551,7 +551,10 @@
     width: 90%;
   }
 }
- @media (min-width:0) and (max-width: 389px){
+ @media (max-width: 415px){
+   .main{
+     background-color: #fff;
+   }
    .leftSide{
      display: none;
    }
