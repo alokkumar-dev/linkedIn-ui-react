@@ -4,8 +4,6 @@
 }
 .main {
   background-color: #f3f2ef;
-  /* width: 100%;
-  margin: auto; */
 }
 .homeContainer {
   gap: 2%;
@@ -538,7 +536,7 @@
 
 /* All Media query start from here.. */
 
-@media (min-width: 770px) and (max-width: 920px) {
+@media (min-width: 390px) and (max-width: 920px) {
   .rightSide {
     display: none;
   }
@@ -548,14 +546,20 @@
   }
 }
 
-@media (min-width: 921px) and (max-width: 1330px ){
-  .homeContainer{
+@media (min-width: 921px) and (max-width: 1330px) {
+  .homeContainer {
     width: 90%;
   }
 }
-/* 
-@media screen and (min-width: 990px){
-  .rightSide{
-    display: block;
-  }
-} */
+ @media (min-width:0) and (max-width: 389px){
+   .leftSide{
+     display: none;
+   }
+   .rightSide{
+     display: none;
+   }
+   .homeContainer{
+     width: 100%;
+   }
+ }
+
