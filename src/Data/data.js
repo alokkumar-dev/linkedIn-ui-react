@@ -618,7 +618,7 @@ export const WHO_TO_CONNECT = [
     name: "Sudhanshu kumar",
     username: "sudhanshukumar",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQGOloPUitz6bw/profile-displayphoto-shrink_800_800/0/1643126839018?e=1655337600&v=beta&t=ctLZiTPArR3NUAm_0InWOg0IAknnc-2tnoudR1SuRDY",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGOloPUitz6bw/profile-displayphoto-shrink_400_400/0/1643126839018?e=1663804800&v=beta&t=3zyrklIodZGabm1dGkBMq1nQWT3PMPvasWOXyx9MGYk",
   },
   {
     name: "Abhishek Prajapati",
