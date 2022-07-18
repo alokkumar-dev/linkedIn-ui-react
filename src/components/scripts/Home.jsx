@@ -19,7 +19,7 @@ export const Home = () => {
             <div className="profileDiv">
               <div className="backGroundDiv">
                 <img
-                  src="https://media-exp1.licdn.com/dms/image/C5616AQHrpEBEcqqr-A/profile-displaybackgroundimage-shrink_350_1400/0/1643298120330?e=1654732800&v=beta&t=8271OQe8iZSbl_2iPFOn76VnE3tu7Z77okferjFi7bg"
+                  src="https://media-exp1.licdn.com/dms/image/C5616AQHrpEBEcqqr-A/profile-displaybackgroundimage-shrink_350_1400/0/1643298120330?e=1663804800&v=beta&t=ntWZkQ9f0apGiu0yHkg69Gw3qlg_k9OH4u7Ju9119GI"
                   className="bgImg"
                   alt=""
                 />
