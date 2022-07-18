@@ -599,20 +599,20 @@ export const WHO_TO_CONNECT = [
     name: "Devesh Verma ",
     username: "deveshverma",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQEc0Tg_g2Mljg/profile-displayphoto-shrink_800_800/0/1645005415410?e=1655337600&v=beta&t=FVJMIiR9RZex3M8nlEmLdNB5b6OmqntHR1ZHT2EH8oQ",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGuMso4x7Y_kQ/profile-displayphoto-shrink_400_400/0/1654933682854?e=1663804800&v=beta&t=nXJLtkyrcWhYL8uu9PrAmxGGOS2DLZGciUY0KZr9SIk",
   },
   {
     name: "Deepak Sharma",
     username: "dasjideepak",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+      "https://media-exp1.licdn.com/dms/image/D4D35AQGHFFp7iDyCzQ/profile-framedphoto-shrink_100_100/0/1655316052951?e=1658750400&v=beta&t=iPFE8ldmqFgnyAAnEA7AQi4u1GAuRTX1C1U3V_51NOY",
   },
 
   {
     name: "Saurabh Yadav",
     username: "saurabhyadav",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFFxGzBBkQLtg/profile-displayphoto-shrink_800_800/0/1648116009422?e=1655337600&v=beta&t=OBbOm2MCPh5X0JtyO4vgZAOrRy2B2Ikx5fjDRA-VyvE",
+      "https://media-exp1.licdn.com/dms/image/C5603AQFFxGzBBkQLtg/profile-displayphoto-shrink_400_400/0/1648116009422?e=1663804800&v=beta&t=p7PPCyaKy9xuWKqSJtMRbp5I75RtxOMrB4Ckk3PJqqU",
   },
   {
     name: "Sudhanshu kumar",
@@ -630,7 +630,7 @@ export const WHO_TO_CONNECT = [
     name: "Shadik Husain",
     username: "shadikhusain",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D4D35AQH8iHtLqJMJ_Q/profile-framedphoto-shrink_800_800/0/1646566001101?e=2147483647&v=beta&t=D2Lv0Wm448nIhICjDNCD7xKVs7VzNiMij8kY-51Z_lA",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGiHdYfUUV8Og/profile-displayphoto-shrink_400_400/0/1656528139362?e=1663804800&v=beta&t=wU7ekUhi_so9IWZ6igQDvT3HQ0c4GsM_QYzWng-lFB0",
   },
   // {
   //   name: "Abhishek Shukla",
