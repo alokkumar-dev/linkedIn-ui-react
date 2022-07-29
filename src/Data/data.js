@@ -78,7 +78,7 @@ export const Posts_Data = [
     name: "Deepak Sharma",
     about_avatar: "Full Stack JavaScript Developer",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+      "https://media-exp1.licdn.com/dms/image/D5635AQGbQcJ0dKMVMg/profile-framedphoto-shrink_800_800/0/1658344383343?e=1659682800&v=beta&t=z4x-G-paCRt71F3qjttZ81v40sTFRB67-Ob-2FEYz7A",
     about_post: "First reward from my corporate life #credilio",
     time: "6mo",
     post_picture:
@@ -202,7 +202,7 @@ export const Posts_Data = [
     name: "Akshay Saini",
     about_avatar: "Engineer at Uber | Teacher | YouTuber",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5103AQGDGDnudfmZTQ/profile-displayphoto-shrink_800_800/0/1579620531120?e=1655942400&v=beta&t=MuC4uE73lP3lr_QgK_ZI2g38BK5J4CLPKG09-Uy9PBg",
+      "https://media-exp1.licdn.com/dms/image/C5103AQGDGDnudfmZTQ/profile-displayphoto-shrink_400_400/0/1579620531120?e=1664409600&v=beta&t=zIhgmruxGAL2t1eCXvUHejYcrZ9v60Te-pCXwKm7CDg",
     about_post:
       "Wohooo, what a meet-up it was in Hyderabad!! 🤩🤩 Thank you for taking out time and joining,it was just amazing meeting you in person. 😇",
     time: "2w",
@@ -234,7 +234,7 @@ export const Posts_Data = [
     about_avatar:
       "Instructional Associate at Masai School | Full-Stack Dev | Trader | Investor",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1655942400&v=beta&t=z9PqTdCh2gKC3EU3J4gFdz1iz1_dMYDCGwk1LTvaD5I",
+      "https://media-exp1.licdn.com/dms/image/C5603AQFo1igfd4cyAw/profile-displayphoto-shrink_800_800/0/1626527277875?e=1664409600&v=beta&t=pQSdlok2164pFV2DEfipVCsSW6JNeYvtQwFroZ3kYpk",
     about_post:
       "Hello fam, I am delighted to share that I have joined Masai School as an Instructional Associate. I always loved the environment, culture and team spirit her",
     time: "2mo",
@@ -265,7 +265,7 @@ export const Posts_Data = [
     name: "Sheelu Kumar",
     about_avatar: "Full Stack Dev | Instructional associate @masaischool",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQGqAMHXmA8HdQ/profile-displayphoto-shrink_800_800/0/1631989874549?e=1655942400&v=beta&t=z8AItpnS4y-3HZaL4M4tGwiYSr49osb4FWB-r4fzzL0",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQGqAMHXmA8HdQ/profile-displayphoto-shrink_800_800/0/1631989874549?e=1664409600&v=beta&t=EkIi81dWFaoE1QLEarBk1kmnDkxPRWzbCvWIi-MG4gM",
     about_post:
       "Hello everyone, I feel really blessed to share that I have now Joined Masai School as an Instructional Associate (IA).It have been a wonderful journey in masai and thanks to all the support and training given by Nrupul Dev Yogesh Bhat Prateek Shukla Chandra Sekhar Swanand Kadam Dhaval Chheda Prabhanjan Padhye  Neeraj Malwal and all Masai School operation team.",
     time: "1mo",
@@ -359,7 +359,7 @@ export const Posts_Data = [
     name: "Deepak Sharma",
     about_avatar: "Full Stack JavaScript Developer",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
+      "https://media-exp1.licdn.com/dms/image/D5635AQGbQcJ0dKMVMg/profile-framedphoto-shrink_800_800/0/1658344383343?e=1659682800&v=beta&t=z4x-G-paCRt71F3qjttZ81v40sTFRB67-Ob-2FEYz7A",
     about_post: "First reward from my corporate life #credilio",
     time: "6mo",
     post_picture:
