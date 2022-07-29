@@ -78,7 +78,7 @@ export const Posts_Data = [
     name: "Deepak Sharma",
     about_avatar: "Full Stack JavaScript Developer",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/D5635AQGbQcJ0dKMVMg/profile-framedphoto-shrink_800_800/0/1658344383343?e=1659682800&v=beta&t=z4x-G-paCRt71F3qjttZ81v40sTFRB67-Ob-2FEYz7A",
+      "https://media-exp1.licdn.com/dms/image/C4E03AQHSIdC_qQB3Ow/profile-displayphoto-shrink_800_800/0/1628099682694?e=1655337600&v=beta&t=CapQDwp1tUOlBGQRHXYloAq04gMqc3Yy2S_LQvCHHqc",
     about_post: "First reward from my corporate life #credilio",
     time: "6mo",
     post_picture:
@@ -109,7 +109,7 @@ export const Posts_Data = [
     about_avatar:
       "Frontend web developer at The UniQue Culture| A Multinational Software Development",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF88c9LoExwbA/profile-displayphoto-shrink_800_800/0/1648892490663?e=1655942400&v=beta&t=WYLNXL41d0MZGhrEumsjrAOiVVMgBDr-FapvhH5NyR0",
+      "https://media-exp1.licdn.com/dms/image/C5603AQF88c9LoExwbA/profile-displayphoto-shrink_800_800/0/1648892490663?e=1664409600&v=beta&t=eenM2NCjztq7wNqA-GIBRx6A_KsDyAh3Zc6reCMFGOA",
     about_post:
       "Here is the Certificate of Web development from Hindi Tech Tutorials... Thank you Rajdeep Dhakad sir for being a good mentor and for guiding me on the right path...I will always be grateful to you for your support 🙏🙏😊",
     time: "1yr",
@@ -140,7 +140,7 @@ export const Posts_Data = [
     name: "Gurdeep Singh",
     about_avatar: "Associate SDE | Actyv.ai",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF2N5ET-q-bzg/profile-displayphoto-shrink_800_800/0/1638970930286?e=1655942400&v=beta&t=n4RBYqMEN3Pa0lavLRryvG5RYaxcY6W1zL8dfRMa2BE",
+      "https://media-exp1.licdn.com/dms/image/C5603AQF2N5ET-q-bzg/profile-displayphoto-shrink_400_400/0/1638970930286?e=1664409600&v=beta&t=LrK0Xav2_fPdc8-RJg8wWx-b4aWnmF3jc--lfCwAxKI",
     about_post:
       "I'm delighted to share with you that I have joined Actyv.ai® as an Associate SDE.Thanks, Masai School for making my dream True.Special thanks to co-founders Nrupul Dev, Yogesh Bhat, and Prateek Shukla for creating such an amazing platform to create and grow your skills.",
     time: "2w",
@@ -297,7 +297,7 @@ export const Posts_Data = [
     about_avatar:
       "Hiring for leadership positions in product & engineering at Masai",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1655942400&v=beta&t=a-ZWuP6G5_txcvdag26NV7O25xldJEkbV8b-_Tpi6Qs",
+      "https://media-exp1.licdn.com/dms/image/C5603AQH6YLJNpKYptw/profile-displayphoto-shrink_800_800/0/1645321272614?e=1664409600&v=beta&t=hZliAAQkjYW4qp42vV-S-dKzDBg0oh2HIGJJKq_cZQQ",
     about_post:
       "🚨 Announcement 🚨  National Skill Development Corporation 🤝 Masai School to skill 1.5 lacs students of 🇮🇳 What it entails for our students 👇 - All the students who graduate from Masai will be certified by the NSDC at the time of graduation 😍",
     time: "3w",
@@ -328,7 +328,7 @@ export const Posts_Data = [
     name: "Yogesh Bhat",
     about_avatar: "Co-founder & SVP @Masai School |Transformation in Educat.",
     avatar:
-      "https://media-exp1.licdn.com/dms/image/C5603AQF9Mgs6p2Mbcg/profile-displayphoto-shrink_800_800/0/1624713289242?e=1654732800&v=beta&t=yZ0SO8VCKCCd1BhMRfElFLclDFamfTg_h0SOJDo8HTM",
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGDD9G1H0asoA/profile-displayphoto-shrink_800_800/0/1655700768997?e=1664409600&v=beta&t=hccNXcYXNwwVqbvhjtLSjDgVXCMgyUQGQllxem-oNAA",
     about_post:
       "# 18 / 101 Power Skills - Active Patience Power skills help individuals to # achieve their potential # achieve their aspirations Active patience demands actions & Good intentions while waiting for results to be achieved.",
     time: "24h",
